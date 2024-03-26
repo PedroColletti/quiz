@@ -55,8 +55,6 @@ const Quiz: React.FC<Props> = ({
 
   const isRight = rightAnswer === selectedOption;
 
-  console.log("count count countcount count countcount", count);
-
   const filler = document.getElementById("filler");
 
   if (filler) {
