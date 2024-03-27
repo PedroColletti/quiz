@@ -51,7 +51,7 @@
 
   .wrapper {
     flex-wrap: wrap;
-    padding: 30px 0px 0 20px;
+    padding: 90px 0px 0 20px;
   }
 
   .secondWord {
@@ -72,6 +72,7 @@
 
 @media (max-width: 500px) {
   .subjectSelection {
+    margin-top: 50px;
     min-width: unset;
     width: 90%;
   }
@@ -95,6 +96,10 @@
 }
 
 .inputTitle {
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
   gap: 32px;
   display: flex;
@@ -157,6 +162,10 @@
 
 
 .inputQuestion {
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
   gap: 32px;
   display: flex;
@@ -226,6 +235,10 @@
 }
 
 .submitButton {
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
   margin: 20px 0;
   display: flex;
@@ -297,6 +310,10 @@
 }
 
 .play-again{
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
   box-sizing: border-box;
   display: flex;
